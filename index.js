@@ -83,6 +83,8 @@ let db = [
   { id: 2, name: "Ada Lovelace", number: "39-44-5323523" },
   { id: 3, name: "Dan Abramov", number: "12-43-234345" },
   { id: 4, name: "Mary Poppendick", number: "39-23-6423122" },
+  { id: 5, name: "Johnny Bravo", number: "099-888-777666555" },
+  { id: 6, name: "Sherlock Holmes", number: "221-12345678" },
 ];
 
 app.get("/api/persons/:idHere", (request, response) => {
