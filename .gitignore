@@ -9,7 +9,7 @@
 /coverage
 
 # production
-/build
+# /build // enable for this exercise
 
 # misc
 .DS_Store
