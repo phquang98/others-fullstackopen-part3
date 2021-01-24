@@ -77,6 +77,7 @@ const app = express();
 app.use(express.json()); // make everything in the req body to becomed jsonable
 app.use(morgan("tiny")); // using the logging middleware
 app.use(cors());
+app.use(express.static("build")); // serves the build folder of fe
 
 let db = [
   { id: 1, name: "Arto Hellas", number: "040-123456" },
