@@ -1,0 +1,31 @@
+{
+  "name": "others-fulstackopen-part3",
+  "version": "1.0.0",
+  "description": "This repo contains my submission in part 3 of the course Fullstackopen.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phquang98/others-fullstackopen-part3.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phquang98/others-fullstackopen-part3/issues"
+  },
+  "homepage": "https://github.com/phquang98/others-fullstackopen-part3#readme",
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.7"
+  }
+}
