@@ -1,0 +1,24 @@
+{
+  "root": true,
+  "extends": ["eslint:recommended"],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 6,
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-var": "warn",
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "spaced-comment": "error",
+    "no-magic-numbers": ["warn", { "ignoreArrayIndexes": true }],
+    "eqeqeq": "error"
+  }
+}
